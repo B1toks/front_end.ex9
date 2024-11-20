@@ -1,10 +1,15 @@
 .footer {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
